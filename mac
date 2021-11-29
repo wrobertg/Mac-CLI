@@ -72,7 +72,6 @@ COMMANDS=(
     homebrew
     xcode
     image
-    magento
     update
     upgrade
     uninstall
@@ -180,15 +179,6 @@ COMMANDS=(
     brew:update
     xcode:cleanup
     image:generate:mobile-app-icons
-    magento:version
-    magento:customer:create
-    magento:fix-permissions
-    magento:order:create
-    magento:shell-script:create
-    magento:gitignore:create
-    magento:url-rewrite:enable
-    magento:url-rewrites:disable
-    magento2:install
 )
 ## ---- END OF COMMANDS; Comment required for bash_completion------
 
@@ -230,7 +220,6 @@ source "$MAC/mac-cli/plugins/image"
 source "$MAC/mac-cli/plugins/brew"
 source "$MAC/mac-cli/plugins/iterm"
 source "$MAC/mac-cli/plugins/lamp"
-source "$MAC/mac-cli/plugins/magento"
 source "$MAC/mac-cli/plugins/network"
 source "$MAC/mac-cli/plugins/performance"
 source "$MAC/mac-cli/plugins/search"

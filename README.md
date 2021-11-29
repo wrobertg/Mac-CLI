@@ -249,18 +249,3 @@ The following amazing projects have been integrated on the mac script (all the i
 | Command  | Description | Arguments
 | ------------- | ------------- | ------------- |
 | `mac image:generate:mobile-app-icons X Y`  | Generate mobile app icons  | X = Original image file, Y = Output path |
-
-
-### Magento Utilities
-
-| Command  | Description |
-| ------------- | ------------- |
-| `mac magento:version`  | Get Magento version from current project on command line  |
-| `mac magento:customer:create`  | Create Magento customer with sample address and sample credit card information  |
-| `mac magento:fix-permissions`  | Fix Magento permissions for files and directories  |
-| `mac magento:order:create`  | Create sample order in Magento  |
-| `mac magento:shell-script:create`  | Create script in Magento shell folder to be run from command line  |
-| `mac magento:gitignore:create`  | Create gitignore file for Magento project |
-| `mac magento:url-rewrites:enable`  | Enable Magento URL rewrites  |
-| `mac magento:url-rewrites:disable`  | Disable Magento URL rewrites  |
-| `mac magento2:install`  | Install Magento 2 in current folder  |
